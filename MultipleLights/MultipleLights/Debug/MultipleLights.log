@@ -1,0 +1,22 @@
+﻿  MultipleLights.cpp
+D:\CGHeadFile\include\shader_s.h(94,8): warning C4101: “infoLog”: 未引用的局部变量
+D:\CGHeadFile\include\shader_s.h(93,7): warning C4101: “success”: 未引用的局部变量
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(194,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(229,56): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(230,60): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(237,56): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(238,60): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(245,56): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(246,60): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(253,56): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(254,60): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(262,51): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(263,55): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(364,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(365,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(369,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(370,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(372,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(373,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\MultipleLights\MultipleLights.cpp(382,28): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  MultipleLights.vcxproj -> C:\Users\HenryLiu\Desktop\学习\大三\计算机图形学课设\MultipleLights\Debug\MultipleLights.exe

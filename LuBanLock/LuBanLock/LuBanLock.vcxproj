@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\CGHeadFile\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\CGHeadFile\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\CGRepository\LuBanLockProject\CGHeadFile\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\CGRepository\LuBanLockProject\CGHeadFile\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>

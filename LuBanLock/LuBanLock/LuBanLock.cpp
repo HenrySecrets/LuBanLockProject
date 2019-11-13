@@ -13,10 +13,6 @@ using namespace std;
 using namespace glm;
 
 /*………………………………全局变量………………………………*/
-unsigned int VBO;//顶点缓存对象
-unsigned int VAO;//顶点数组对象
-unsigned int EBO;//索引缓冲对象
-mat4 model, view, projection;//模型、视图、投影矩阵
 Camera camera;//相机
 float deltaTime;//每帧的时间差
 
@@ -83,6 +79,10 @@ private:
 	float* vertices_data;//顶点数据
 	int* indices_data;//索引数据
 	enum class ObjectType { VAO, VBO, EBO };//对象类型
+	unsigned int VBO;//顶点缓存对象
+	unsigned int VAO;//顶点数组对象
+	unsigned int EBO;//索引缓冲对象
+	mat4 model, view, projection;//模型、视图、投影矩阵
 	/*初始化VBO与VAO*/
 	void InitVBOandVAO()
 	{
@@ -217,6 +217,25 @@ public:
 		modelShader.setMat4("view", view);//设置视图矩阵
 		modelShader.setMat4("projection", projection);//设置投影矩阵
 	}
+	/*不使用索引，绘制对象*/
+	void DrawObject(GLenum mode, unsigned int first, unsigned int size)
+	{
+		glBindVertexArray(VAO);
+		glDrawArrays(mode, first, size);
+	}
+	/*使用索引，绘制对象*/
+	void DrawObject(GLenum mode, unsigned int count, GLenum type, const void* indices)
+	{
+		glBindVertexArray(VAO);
+		glDrawElements(mode, count, type, indices);
+	}
+	/*释放空间*/
+	void ReleaseSpace()
+	{
+		glDeleteBuffers(1, &VBO);
+		glDeleteVertexArrays(1, &VAO);
+		glDeleteBuffers(1, &EBO);
+	}
 	~Model()
 	{
 		/*释放空间*/
@@ -262,25 +281,6 @@ void GetDeltaTime()
 	currentTime = glfwGetTime();//1.记录当前帧对应时间
 	deltaTime = currentTime - lastFrame;//3.从第二帧开始，获得与前帧的时间差
 	lastFrame = currentTime;//2.缓存当前帧时间，作为下一帧的前帧时间
-}
-/*不使用索引，绘制对象*/
-void DrawObject(GLenum mode, unsigned int first, unsigned int size)
-{
-	glBindVertexArray(VAO);
-	glDrawArrays(mode, first, size);
-}
-/*使用索引，绘制对象*/
-void DrawObject(GLenum mode, unsigned int count, GLenum type, const void* indices)
-{
-	glBindVertexArray(VAO);
-	glDrawElements(mode, count, type, indices);
-}
-/*释放空间*/
-void ReleaseSpace()
-{
-	glDeleteBuffers(1, &VBO);
-	glDeleteVertexArrays(1, &VAO);
-	glDeleteBuffers(1, &EBO);
 }
 
 /*………………………………程序入口………………………………*/
@@ -334,13 +334,13 @@ int main()
 		GetDeltaTime();
 		triangle.BindTexture(Model::MapType::DiffuseMap);
 		triangle.BindTexture(Model::MapType::SpecularMap);
-		DrawObject(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+		triangle.DrawObject(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 		glfwSwapBuffers(mainWindow.window);//交换缓冲
 		glfwPollEvents();//检查是否有事件被触发并更新窗口状态以及调用对应的回调函数
 	}
 
 	/*………………………………程序结束后处理………………………………*/
-	ReleaseSpace();
+	triangle.ReleaseSpace();
 	glfwTerminate();
 	return 0;
 }

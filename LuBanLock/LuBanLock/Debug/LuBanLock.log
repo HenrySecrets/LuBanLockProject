@@ -1,7 +1,1 @@
-﻿  LuBanLock.cpp
-D:\CGHeadFile\include\shader_s.h(94,8): warning C4101: “infoLog”: 未引用的局部变量
-D:\CGHeadFile\include\shader_s.h(93,7): warning C4101: “success”: 未引用的局部变量
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(62,46): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(62,33): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(263,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-  LuBanLock.vcxproj -> C:\Users\HenryLiu\Desktop\LuBanLock\Debug\LuBanLock.exe
+﻿  LuBanLock.vcxproj -> D:\CGRepository\LuBanLockProject\LuBanLock\Debug\LuBanLock.exe

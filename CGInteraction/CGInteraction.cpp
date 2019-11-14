@@ -106,7 +106,7 @@ void display(void)
    glLoadIdentity ();
    gluPerspective(65.0, (GLfloat) width/(GLfloat) height, 1.0, 300);
 
-   // »ñÈ¡Í¶Ó°¾ØÕó
+
    glGetFloatv(GL_PROJECTION_MATRIX, mat_proj);
 
    glMatrixMode(GL_MODELVIEW);
@@ -115,7 +115,6 @@ void display(void)
    glColor4f(0.1, 0.4, 0.6, 0.7);
    glPushMatrix();
 
-		// »ñÈ¡Ä£ÐÍÊÓÍ¼¾ØÕó
 		glGetFloatv(GL_MODELVIEW_MATRIX, mat_modelview);
 
 		glBegin( GL_QUADS );
@@ -157,9 +156,6 @@ void display(void)
 
    selection.set_config( corners, 8, left_bottom, right_top, mat_modelview, mat_proj, viewport);
 
-   /************************************************************************/
-   /* ¹¹ÔìÒ»¸öÐÂµÄ»·¾³                                                                     */
-   /************************************************************************/
    
    if( bool_select_area ){
 	   

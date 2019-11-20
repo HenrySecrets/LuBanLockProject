@@ -1,1 +1,22 @@
-﻿  LuBanLock.vcxproj -> D:\CGRepository\LuBanLockProject\LuBanLock\Debug\LuBanLock.exe
+﻿  LuBanLock.cpp
+D:\CGRepository\LuBanLockProject\CGHeadFile\include\shader_s.h(94,8): warning C4101: “infoLog”: 未引用的局部变量
+D:\CGRepository\LuBanLockProject\CGHeadFile\include\shader_s.h(93,7): warning C4101: “success”: 未引用的局部变量
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(125,46): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(125,33): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(429,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(516,5): warning C4305: “初始化”: 从“double”到“_Ty”截断
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(516,5): warning C4305:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(516,5): warning C4305:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(516,5): warning C4305:             _Ty=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(516,5): warning C4305:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(565,5): warning C4305: “初始化”: 从“double”到“_Ty”截断
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(565,5): warning C4305:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(565,5): warning C4305:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(565,5): warning C4305:             _Ty=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(565,5): warning C4305:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(600,177): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(600,177): warning C4244:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(600,177): warning C4244:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(600,177): warning C4244:             T=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(600,177): warning C4244:         ]
+  LuBanLock.vcxproj -> C:\Users\HenryLiu\Desktop\LuBanLock\Debug\LuBanLock.exe

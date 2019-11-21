@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "任务-IndexBuffer",
+      "appliesTo": "IndexBuffer.cpp",
+      "type": "launch"
+    }
+  ]
+}

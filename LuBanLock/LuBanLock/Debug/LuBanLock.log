@@ -1,18 +1,67 @@
 ﻿  LuBanLock.cpp
 C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\CGHeadFile\include\shader_s.h(94,8): warning C4101: “infoLog”: 未引用的局部变量
 C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\CGHeadFile\include\shader_s.h(93,7): warning C4101: “success”: 未引用的局部变量
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(129,46): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(129,33): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(551,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(692,5): warning C4305: “初始化”: 从“double”到“_Ty”截断
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(692,5): warning C4305:         with
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(692,5): warning C4305:         [
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(692,5): warning C4305:             _Ty=float
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(692,5): warning C4305:         ]
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1064,177): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1064,177): warning C4244:         with
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1064,177): warning C4244:         [
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1064,177): warning C4244:             T=float
-C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1064,177): warning C4244:         ]
-LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(127,46): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(127,33): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(449,27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(538,5): warning C4305: “初始化”: 从“double”到“_Ty”截断
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(538,5): warning C4305:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(538,5): warning C4305:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(538,5): warning C4305:             _Ty=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(538,5): warning C4305:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(599,5): warning C4305: “初始化”: 从“double”到“_Ty”截断
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(599,5): warning C4305:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(599,5): warning C4305:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(599,5): warning C4305:             _Ty=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(599,5): warning C4305:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(742,5): warning C4305: “初始化”: 从“double”到“_Ty”截断
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(742,5): warning C4305:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(742,5): warning C4305:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(742,5): warning C4305:             _Ty=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(742,5): warning C4305:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(930,5): warning C4305: “初始化”: 从“double”到“_Ty”截断
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(930,5): warning C4305:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(930,5): warning C4305:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(930,5): warning C4305:             _Ty=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(930,5): warning C4305:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1174,5): warning C4305: “初始化”: 从“double”到“_Ty”截断
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1174,5): warning C4305:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1174,5): warning C4305:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1174,5): warning C4305:             _Ty=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1174,5): warning C4305:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1333,5): warning C4305: “初始化”: 从“double”到“_Ty”截断
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1333,5): warning C4305:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1333,5): warning C4305:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1333,5): warning C4305:             _Ty=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1333,5): warning C4305:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1375,161): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1375,161): warning C4244:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1375,161): warning C4244:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1375,161): warning C4244:             T=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1375,161): warning C4244:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1382,161): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1382,161): warning C4244:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1382,161): warning C4244:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1382,161): warning C4244:             T=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1382,161): warning C4244:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1386,161): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1386,161): warning C4244:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1386,161): warning C4244:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1386,161): warning C4244:             T=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1386,161): warning C4244:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1390,161): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1390,161): warning C4244:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1390,161): warning C4244:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1390,161): warning C4244:             T=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1390,161): warning C4244:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1394,161): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1394,161): warning C4244:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1394,161): warning C4244:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1394,161): warning C4244:             T=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1394,161): warning C4244:         ]
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1398,161): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1398,161): warning C4244:         with
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1398,161): warning C4244:         [
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1398,161): warning C4244:             T=float
+C:\Users\HenryLiu\Desktop\LuBanLock\LuBanLock\LuBanLock.cpp(1398,161): warning C4244:         ]
   LuBanLock.vcxproj -> C:\Users\HenryLiu\Desktop\LuBanLock\Debug\LuBanLock.exe
